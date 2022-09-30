@@ -1,0 +1,74 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "database",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildDatabase",
+            "program": "${workspaceFolder}\\src\\pretpark\\database\\bin\\Debug\\net6.0\\database.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": "AsyncBoekOpdracht",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildAsyncBoek",
+            "program": "${workspaceFolder}\\src\\AsyncBoekOpdracht\\bin\\Debug\\net6.0\\AsyncBoekOpdracht.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "console": "externalTerminal"
+        },
+        
+        /*
+        {
+            "name": ".NET Core Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/src/AsyncBoekOpdracht/bin/Debug/net6.0/AsyncBoekOpdrach.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}\\src\\AsyncBoekOprdacht",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            },
+            "console": "internalConsole"
+        },
+        
+        /*
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": ".NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/src/kaart/bin/Debug/net6.0/kaart.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/src/kaart",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        */
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F40C2A47-A6C2-4842-8633-D585BB4AB808}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authenticatieTests", "tests\authenticatieTests\authenticatieTests.csproj", "{A7501EA4-AB33-4B4E-BB32-B00A41985F7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DC2E446-8572-4B7E-B651-40A0EE369E06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pretpark", "pretpark", "{CB9E738E-57AA-45C4-AEA8-29A0E7496A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authenticatie", "src\pretpark\authenticatie\authenticatie.csproj", "{788302D6-DA48-4BF4-A5A6-9F86D601131F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kaartProj", "src\pretpark\kaartProj\kaartProj.csproj", "{8568D14D-71D8-45F4-9600-A2961E257DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncBoekOpdracht", "src\AsyncBoekOpdracht\AsyncBoekOpdracht.csproj", "{E0FD754D-D4C7-4EE2-B7E6-E2933FC37BE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7501EA4-AB33-4B4E-BB32-B00A41985F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7501EA4-AB33-4B4E-BB32-B00A41985F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7501EA4-AB33-4B4E-BB32-B00A41985F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7501EA4-AB33-4B4E-BB32-B00A41985F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{788302D6-DA48-4BF4-A5A6-9F86D601131F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{788302D6-DA48-4BF4-A5A6-9F86D601131F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{788302D6-DA48-4BF4-A5A6-9F86D601131F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{788302D6-DA48-4BF4-A5A6-9F86D601131F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8568D14D-71D8-45F4-9600-A2961E257DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8568D14D-71D8-45F4-9600-A2961E257DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8568D14D-71D8-45F4-9600-A2961E257DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8568D14D-71D8-45F4-9600-A2961E257DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0FD754D-D4C7-4EE2-B7E6-E2933FC37BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0FD754D-D4C7-4EE2-B7E6-E2933FC37BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0FD754D-D4C7-4EE2-B7E6-E2933FC37BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0FD754D-D4C7-4EE2-B7E6-E2933FC37BE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7501EA4-AB33-4B4E-BB32-B00A41985F7F} = {F40C2A47-A6C2-4842-8633-D585BB4AB808}
+		{CB9E738E-57AA-45C4-AEA8-29A0E7496A20} = {5DC2E446-8572-4B7E-B651-40A0EE369E06}
+		{788302D6-DA48-4BF4-A5A6-9F86D601131F} = {CB9E738E-57AA-45C4-AEA8-29A0E7496A20}
+		{8568D14D-71D8-45F4-9600-A2961E257DDA} = {CB9E738E-57AA-45C4-AEA8-29A0E7496A20}
+		{E0FD754D-D4C7-4EE2-B7E6-E2933FC37BE6} = {5DC2E446-8572-4B7E-B651-40A0EE369E06}
+	EndGlobalSection
+EndGlobal
